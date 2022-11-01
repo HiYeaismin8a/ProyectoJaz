@@ -11,8 +11,7 @@ export class HomePage {
   public students: Student[];
   constructor(
     private studentService: StudentService,
-  ) {
-    //
+  ) {                                    // faltó
     this.students = this.studentService.
   }
 
